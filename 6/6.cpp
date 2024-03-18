@@ -1,17 +1,19 @@
-#include <cstdlib>
-#include <ctime>
 #include <iostream>
+#include <string>
 
+template<class Key, class Value>
 class Node
 {
 private:
     Node *left, *right;
 
 public:
-    int key, value;
+    Key key;
+    Value value;
 
-    Node(int key, int value)
+    Node(Key key = Key{}, Value value = Value{})
     {
+        this->key = key;
         this->value = value;
         left = right = nullptr;
     }
@@ -23,7 +25,7 @@ public:
     }
 
     Node *
-    add(int key, int value)
+    add(Key key, Value value)
     {
         if (this->key > key) {
             if (left == nullptr) {
@@ -46,7 +48,7 @@ public:
     }
 
     [[deprecated]] bool
-    contains(int value)
+    contains(Value value)
     {
         if (this->value == value) {
             return true;
@@ -66,7 +68,7 @@ public:
     }
 
     Node *
-    find(int key)
+    find(Key key)
     {
         if (this->key == key) {
             return this;
@@ -85,7 +87,7 @@ public:
         }
     }
 
-    void
+    [[deprecated]] void
     print()
     {
         if (left != nullptr) {
@@ -96,13 +98,27 @@ public:
             right->print();
         }
     }
+
+    friend std::ostream &
+    operator<<(std::ostream &out, const Node &node)
+    {
+        if (node.left) {
+            out << *(node.left);
+        }
+        out << " {" << node.key << " : " << node.value << "} ";
+
+        if (node.right) {
+            out << *(node.right);
+        }
+        return out;
+    }
 };
 
-
+template<class Key, class Value>
 class Dict
 {
 private:
-    Node *node;
+    Node<Key, Value> *node;
 
 public:
     Dict()
@@ -115,16 +131,16 @@ public:
         delete node;
     }
 
-    int &
-    operator[](int key)
+    Value &
+    operator[](Key key)
     {
         if (empty()) {
-            node = new Node(key, 0);
+            node = new Node(key, Value{});
             return node->value;
         }
-        Node *node = this->node->find(key);
+        Node<Key, Value> *node = this->node->find(key);
         if (node == nullptr) {
-            return this->node->add(key, 0)->value;
+            return this->node->add(key, Value{})->value;
         } else {
             return node->value;
         }
@@ -136,17 +152,25 @@ public:
     {
         return node == nullptr;
     }
+
+
+    friend std::ostream &
+    operator<<(std::ostream &out, const Dict &dict)
+    {
+        return out << "{ " << *(dict.node) << " }";
+    }
 };
 
 
 int
 main(int argc, char *argv[])
 {
-    Dict dict;
-    dict[0] = 1;
-    dict[1] = 2;
-    dict[2] = 3;
-    dict[3] = 4;
-    dict[4] = 5;
+    Dict<std::string, double> dict;
+    dict["a"] = 5.0;
+    dict["bdc"] = 3.0;
+    dict["   "] = 1.0;
+    std::cout << dict << std::endl;
+    Dict<double, int> dict2;
+    dict2[3.0] = 0;
     return 0;
 }

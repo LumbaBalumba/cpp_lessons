@@ -1,0 +1,13 @@
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/1.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/2.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/3.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/4.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/5.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/6.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/7.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/8.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/9.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/10_1.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/10_2.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug/CMakeFiles/rebuild_cache.dir

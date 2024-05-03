@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pluses",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1-Debug-8c004a28ca542f9402cc.json",
+					"name" : "1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10_1-Debug-e46321456625b7e80d2e.json",
+					"name" : "10_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10_2-Debug-83152e57bb6490321721.json",
+					"name" : "10_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2-Debug-9d3558bf6cc922803f2c.json",
+					"name" : "2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3-Debug-74eb034ea19ef9461b6f.json",
+					"name" : "3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4-Debug-a18877f2e5a8bd98604e.json",
+					"name" : "4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-5-Debug-8d521427512fb53d5d05.json",
+					"name" : "5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-6-Debug-fec8ec8a37f6db8273cd.json",
+					"name" : "6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7-Debug-0df1b041f9a56e9b21f6.json",
+					"name" : "7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-8-Debug-7e8bc657071fd81987de.json",
+					"name" : "8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-9-Debug-c53e8277c78da164b779.json",
+					"name" : "9",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/i3alumba/HDD/Projects/cpp_lessons/cmake-build-debug",
+		"source" : "/home/i3alumba/HDD/Projects/cpp_lessons"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -18,6 +18,25 @@ public:
         cap_ = 8;
     }
 
+    DynArray(DynArray &&other) : array_(other.array_), size_(other.size_), cap_(other.cap_)
+    {
+        other.array_ = nullptr;
+        other.cap_ = 0;
+        other.size_ = 0;
+    }
+
+    DynArray(const DynArray &other)
+    {
+        //todo
+    }
+
+    const DynArray &
+    operator=(const DynArray<T> &other)
+    {
+        //todo
+        return *this;
+    }
+
     ~DynArray() noexcept
     {
         delete[] array_;

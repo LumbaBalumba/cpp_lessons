@@ -1,0 +1,8 @@
+
+[EXECUTE]: cmake -B /home/i3alumba/HDD/Projects/cpp_lessons/target/Debug -S . -D CMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+[EXECUTE]: cmake --build /home/i3alumba/HDD/Projects/cpp_lessons/target/Debug --target 11
+[EXECUTE]: cmake -B /home/i3alumba/HDD/Projects/cpp_lessons/target/Debug -S . -D CMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+[EXECUTE]: cmake --build /home/i3alumba/HDD/Projects/cpp_lessons/target/Debug --target 7
+[EXECUTE]: cmake -B /home/i3alumba/HDD/Projects/cpp_lessons/target/Debug -S . -D CMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+[EXECUTE]: cmake -B /home/i3alumba/HDD/Projects/cpp_lessons/target/Debug -S . -D CMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+[EXECUTE]: cmake --build /home/i3alumba/HDD/Projects/cpp_lessons/target/Debug --target 11

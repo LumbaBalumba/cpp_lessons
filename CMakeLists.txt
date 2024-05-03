@@ -14,3 +14,7 @@ add_executable(8 8/8.cpp)
 add_executable(9 9/9.cpp)
 add_executable(10_1 10/10_1.cpp)
 add_executable(10_2 10/10_2.cpp)
+add_executable(11_1 11/11_1.cpp)
+add_executable(11_2 11/11_2.cpp)
+
+target_link_libraries(11 cpr)

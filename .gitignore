@@ -1,4 +1,5 @@
-target/
-compile_commands.json
-.cache/
-cmake-build-debug
+**/target/
+**/compile_commands.json
+**/.cache/
+**/cmake-build-debug
+**/bin

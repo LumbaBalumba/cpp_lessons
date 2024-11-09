@@ -8,7 +8,7 @@ class Player
 public:
 };
 
-struct B {
+struct Mob {
     int b;
 };
 
@@ -19,6 +19,6 @@ main()
     x.a = 5;
     x.b = 3;
 
-    B y;
+    Mob y;
     y.b = 5;
 }
